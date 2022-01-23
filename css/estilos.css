@@ -13,14 +13,16 @@ body {
 	padding: 15px 0 0 20px;
 	text-decoration: none;
 }
-#logo-header:hover {
-	color: #0b76a6;
-}
 	
 #logo-header .site-name {
 	display: block;
 	font-weight: 700;
 	font-size: 1.2em;
+	color: #0000ff;
+}
+
+#logo-header .site-name:hover {
+	color: #ff0000;
 }
 	
 #logo-header .site-desc {
@@ -50,4 +52,12 @@ nav ul li a {
     display: block;
     padding: 0 10px;
     text-decoration: none;
+}
+
+nav ul li span {
+	color: #0000ff;
+}
+
+nav ul li span:hover {
+	color: #ff0000;
 }
