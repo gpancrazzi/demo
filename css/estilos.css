@@ -50,6 +50,11 @@ body {
 	color: #999;
 }
 
+#logo {
+	height: 30px;
+	vertical-align: middle;
+}
+
 nav {
     float: right;
 }
